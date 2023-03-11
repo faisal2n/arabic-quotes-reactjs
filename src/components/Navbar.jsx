@@ -1,16 +1,16 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
 import { fonts } from "../assets/fonts"
-import Logo from '../assets/an.png'
+import Logo from '../assets/ar.png'
 const Navbar = ({ setQFont }) => {
   const [isOpen, setIsOpen] = useState(false)
   
   return (
     <>
-        {/* <Link to='/'><span className="navbar__logo">Arabian Nights</span></Link> */}
+        {/* <Link to='/'><span className="navbar__logo">أقوال عربية</span></Link> */}
         <Link to='/'>
           <div className="navbar__logo">
-            <img src={Logo} alt="Arabian Nights" />
+            <img src={Logo} alt="أقوال عربية" />
           </div>
         </Link>
         <span onClick={() => setIsOpen(prev=>!prev)} className="navbar__menu"></span>
