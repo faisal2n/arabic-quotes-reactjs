@@ -1,16 +1,16 @@
 import { 
-    beauty,
-    coffee,
-    friendship,
-    habits,
-    happiness,
-    life,
-    loneliness,
-    love,
-    marriage,
-    night,
-    risk,
-    sadness
+    الجمال,
+    القهوة,
+    الصداقة,
+    العادات,
+    السعادة,
+    الحياة,
+    الوحدة,
+    الحب,
+    الزواج,
+    الليل,
+    الخطر,
+    الحزن
 } from "../data";
 
 
