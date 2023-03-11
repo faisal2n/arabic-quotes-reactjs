@@ -29,7 +29,7 @@ const Home = ({ qFont }) => {
       </div>
 
 
-      <Link to="/store"><span className="home-footer">See more</span></Link>
+      <Link to="/store"><span className="home-footer">اطلع على المزيد</span></Link>
     </div>
   )
 }
