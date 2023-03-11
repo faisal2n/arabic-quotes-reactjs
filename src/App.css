@@ -66,6 +66,7 @@
     padding: 5px 15px;
     line-height: 20px; border-radius: 30px;
     cursor: pointer;
+        direction: rtl;
 }
 .navbar__main-list li:active{
     background-color: #111;
